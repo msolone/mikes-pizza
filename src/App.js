@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import CategoriesList from './Components/CategoriesList'
+import Data from './Data.json'
 
 
 class App extends Component {
   render() {
+    console.log(Data.drinks.meals[0])
     return (
       <Router>
         <section className="perma-page">

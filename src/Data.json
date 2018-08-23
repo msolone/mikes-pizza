@@ -1,0 +1,141 @@
+{
+    "appetizers": {
+        "title": "appetizers",
+        "motto": "Start your meal with these great apps!",
+        "meals": [
+            {
+                "title": "Bread Sticks",
+                "description": "Made to order, always hot and fresh!!",
+                "price": "$4.99",
+                "imageURL": "https://bit.ly/2BGcqJu"
+            },
+
+            {
+                "title": "Wings",
+                "description": "8 Mild, Medium, Hot, or BBQ Wings",
+                "price": "$7.99",
+                "imageURL": "https://bit.ly/2MsNYjZ"
+            },
+
+            {
+                "title": "Salad",
+                "description": "Fresh garden salad, with our legendary house dressing",
+                "price": "$5.99",
+                "imageURL": "https://bit.ly/2w6jqKA"
+            },
+
+            {
+                "title": "Mozzarella Sticks",
+                "description": "Its cheese that we fry, need we say more!?",
+                "price": "$6.99",
+                "imageURL": "https://bit.ly/2MHRMx1"
+            }
+
+        ]
+    },
+
+    "entrees": {
+        "title": "entrees",
+        "motto": "The best Pizza and Subs in Town!",
+        "meals": [
+            {
+                "title": "Pepperoni Pizza",
+                "description": "More pepperoni that you imagined possible!",
+                "price": "$10.99",
+                "imageURL": "https://bit.ly/2gKKSph"
+            },
+
+            {
+                "title": "Meatlover's Pizza",
+                "description": "So many different types of meats, we lost count",
+                "price": "$12.99",
+                "imageURL": "https://bit.ly/2wibxks"
+            },
+
+            {
+                "title": "Veggie Pizza",
+                "description": "I don't get it, but hey more power to ya!",
+                "price": "$11.99",
+                "imageURL": "https://bit.ly/2NcthVF"
+            },
+
+            {
+                "title": "Steak and Cheese Sub",
+                "description": "Heaps Thinly sliced steak, mountains of cheese, all on a foot long hoagie!",
+                "price": "$9.99",
+                "imageURL": "https://bit.ly/2Na1CEU"
+            }
+
+        ]
+    },
+
+    "desserts": {
+        "title": "desserts",
+        "motto": "You know you got room!",
+        "meals": [
+            {
+                "title": "Brownies",
+                "description": "Fudge and Walnuts as far as the eye can see!",
+                "price": "$4.99",
+                "imageURL": "https://bit.ly/2Ll64yS"
+            },
+
+            {
+                "title": "Cheesecake",
+                "description": "Creamy and Topped with Cherries",
+                "price": "$6.99",
+                "imageURL": "https://bit.ly/2oEHhvR"
+            },
+
+            {
+                "title": "Fresh Apple Pie",
+                "description": "Just like Mom used to make",
+                "price": "$3.99",
+                "imageURL": "https://bit.ly/2w821B4"
+            },
+
+            {
+                "title": "Chris' Special Cake",
+                "description": "It's more special then you think!",
+                "price": "$99.99",
+                "imageURL": "https://bit.ly/2w5vsUA"
+            }
+
+        ]
+    },
+
+    "drinks": {
+        "title": "drinks",
+        "motto": "You gotta have something to wash down all this grease",
+        "meals": [
+            {
+                "title": "Coke",
+                "description": "The classic",
+                "price": "$2.99",
+                "imageURL": "https://bit.ly/2MxHiBb"
+            },
+
+            {
+                "title": "Dr. Pepper",
+                "description": "Like the classic but with a PhD",
+                "price": "$2.99",
+                "imageURL": "https://bit.ly/2LpSQRg"
+            },
+
+            {
+                "title": "Chocolate Milkshake",
+                "description": "So thick you will need a spoon",
+                "price": "$5.99",
+                "imageURL": "https://bit.ly/2wkofz6"
+            },
+
+            {
+                "title": "A 40oz bottle of Olde English",
+                "description": "Don't forget to pour one out for your hommies!",
+                "price": "$7.99",
+                "imageURL": "https://bit.ly/2MxfnBe"
+            }
+
+        ]
+    }
+}
