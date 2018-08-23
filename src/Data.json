@@ -1,6 +1,6 @@
 {
     "appetizers": {
-        "title": "appetizers",
+        "title": "Appetizers",
         "motto": "Start your meal with these great apps!",
         "meals": [
             {
@@ -35,7 +35,7 @@
     },
 
     "entrees": {
-        "title": "entrees",
+        "title": "Entrees",
         "motto": "The best Pizza and Subs in Town!",
         "meals": [
             {
@@ -70,7 +70,7 @@
     },
 
     "desserts": {
-        "title": "desserts",
+        "title": "Desserts",
         "motto": "You know you got room!",
         "meals": [
             {
@@ -105,21 +105,21 @@
     },
 
     "drinks": {
-        "title": "drinks",
-        "motto": "You gotta have something to wash down all this grease",
+        "title": "Drinks",
+        "motto": "Mmmmmm cold liquid",
         "meals": [
             {
                 "title": "Coke",
                 "description": "The classic",
                 "price": "$2.99",
-                "imageURL": "https://bit.ly/2MxHiBb"
+                "imageURL": "https://bit.ly/2MxjKw0"
             },
 
             {
                 "title": "Dr. Pepper",
                 "description": "Like the classic but with a PhD",
                 "price": "$2.99",
-                "imageURL": "https://bit.ly/2LpSQRg"
+                "imageURL": "https://bit.ly/2MrqmMm"
             },
 
             {
