@@ -19,7 +19,7 @@
 
             {
                 "title": "Salad",
-                "description": "Fresh garden salad, with our legendary house dressing",
+                "description": "Garden salad, with our legendary dressing",
                 "price": "$5.99",
                 "imageURL": "https://bit.ly/2w6jqKA"
             },
@@ -61,7 +61,7 @@
 
             {
                 "title": "Steak and Cheese Sub",
-                "description": "Heaps Thinly sliced steak, mountains of cheese, all on a foot long hoagie!",
+                "description": "Sliced steak and cheese on a foot long hoagie!",
                 "price": "$9.99",
                 "imageURL": "https://bit.ly/2Na1CEU"
             }
@@ -130,10 +130,10 @@
             },
 
             {
-                "title": "A 40oz bottle of Olde English",
+                "title": "40oz bottle of Olde English",
                 "description": "Don't forget to pour one out for your hommies!",
                 "price": "$7.99",
-                "imageURL": "https://bit.ly/2MxfnBe"
+                "imageURL": "https://nydn.us/2MII4KR"
             }
 
         ]

@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import CategoriesList from "./Components/CategoriesList";
+import FoodList from './Components/FoodList';
 import Data from "./Data.json";
 
 class App extends Component {
   render() {
-    console.log(Data.drinks.meals[0]);
+    // console.log(Data.drinks.meals[0]);
     return (
       <Router>
         <section className="perma-page">
@@ -16,21 +17,21 @@ class App extends Component {
           <section className="body">
             <section className="categories">
               <ul className="left-side-bar">
-                <Link to="">
+                <Link to="./appetizers">
                   <li>{Data.appetizers.title}</li>
-                  <img src={Data.appetizers.meals[1].imageURL} />
+                  <img src={Data.appetizers.meals[1].imageURL} alt='food' />
                 </Link>
-                <Link to="">
+                <Link to="./entrees">
                   <li>{Data.entrees.title}</li>
-                  <img src={Data.entrees.meals[1].imageURL} />
+                  <img src={Data.entrees.meals[1].imageURL} alt='food' />
                 </Link>
-                <Link to="">
+                <Link to="./desserts">
                   <li>{Data.desserts.title}</li>
-                  <img src={Data.desserts.meals[1].imageURL} />
+                  <img src={Data.desserts.meals[1].imageURL} alt='food' />
                 </Link>
-                <Link to="">
+                <Link to="./drinks">
                   <li>{Data.drinks.title}</li>
-                  <img src={Data.drinks.meals[1].imageURL} />
+                  <img src={Data.drinks.meals[1].imageURL} alt='food' />
                 </Link>
               </ul>
             </section>
@@ -38,6 +39,7 @@ class App extends Component {
             <section className="dynamic-page">
               <Switch>
                 <Route path="/" exact component={CategoriesList} />
+                <Route path="/:type" exact component={FoodList} />
               </Switch>
             </section>
 
@@ -45,19 +47,19 @@ class App extends Component {
               <ul className="right-side-bar">
                 <Link to="">
                   <li>Deal #1</li>
-                  <img src={Data.appetizers.meals[2].imageURL} />
+                  <img src={Data.appetizers.meals[2].imageURL} alt='food' />
                 </Link>
                 <Link to="">
                   <li>Deal #2</li>
-                  <img src={Data.entrees.meals[2].imageURL} />
+                  <img src={Data.entrees.meals[2].imageURL} alt='food' />
                 </Link>
                 <Link to="">
                   <li>Deal #3</li>
-                  <img src={Data.desserts.meals[2].imageURL} />
+                  <img src={Data.desserts.meals[2].imageURL} alt='food' />
                 </Link>
                 <Link to="">
                   <li>Deal #4</li>
-                  <img src={Data.drinks.meals[2].imageURL} />
+                  <img src={Data.drinks.meals[2].imageURL} alt='food' />
                 </Link>
               </ul>
             </section>
