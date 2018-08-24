@@ -47,19 +47,19 @@ class App extends Component {
               <ul className="right-side-bar">
                 <Link to="">
                   <li>Deal #1</li>
-                  <img src={Data.appetizers.meals[2].imageURL} alt='food' />
+                  <img src={Data.appetizers.meals[Math.floor(Math.random() * 4)].imageURL} alt='food' />
                 </Link>
                 <Link to="">
                   <li>Deal #2</li>
-                  <img src={Data.entrees.meals[2].imageURL} alt='food' />
+                  <img src={Data.entrees.meals[Math.floor(Math.random() * 4)].imageURL} alt='food' />
                 </Link>
                 <Link to="">
                   <li>Deal #3</li>
-                  <img src={Data.desserts.meals[2].imageURL} alt='food' />
+                  <img src={Data.desserts.meals[Math.floor(Math.random() * 4)].imageURL} alt='food' />
                 </Link>
                 <Link to="">
                   <li>Deal #4</li>
-                  <img src={Data.drinks.meals[2].imageURL} alt='food' />
+                  <img src={Data.drinks.meals[Math.floor(Math.random() * 4)].imageURL} alt='food' />
                 </Link>
               </ul>
             </section>
