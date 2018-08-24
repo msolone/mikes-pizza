@@ -165,5 +165,6 @@ body {
 
 .food-detail img {
   width: 40em;
-  height: auto;
+  height: 25em;
+  border-radius: 2em;
 }
