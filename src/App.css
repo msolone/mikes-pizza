@@ -143,6 +143,22 @@ body {
   padding: 0 2.5em;
 }
 
+.food-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
+
+.food-detail h1 {
+  font-size: 3em;
+}
+
+.food-detail h3 {
+  font-size: 2em;
+}
+
 .food-detail img {
   width: 40em;
   height: auto;
