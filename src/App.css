@@ -143,6 +143,10 @@ body {
   padding: 0 2.5em;
 }
 
+.food-list-ul a {
+  text-decoration: none;
+}
+
 .food-detail {
   display: flex;
   flex-direction: column;
