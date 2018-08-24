@@ -6,6 +6,7 @@ import FoodList from './Components/FoodList';
 import Data from "./Data.json";
 import FoodDetail from "./Components/FoodDetail";
 
+
 class App extends Component {
   render() {
     // console.log(Data.drinks.meals[0]);
