@@ -28,7 +28,7 @@ class FoodList extends Component {
                 <ul className='food-list-ul'>
                     {this.state.list.meals.map((meal, i) => {
                         return (
-                            <Link to='' key={i}>
+                            <Link to={`./${this.props.match.params.type}/${i}`} key={i}>
                             <h1>{meal.title}</h1>
                             <p>{meal.description}</p>
                             <img src={meal.imageURL} alt={meal.title} className='food-list-images'/>

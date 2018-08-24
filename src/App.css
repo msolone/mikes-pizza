@@ -27,17 +27,20 @@ body {
 }
 
 .header {
-  border: 3px solid grey;
+  /* border: 3px solid grey; */
+  background: #DF2935;
 }
 
 .header h1 {
   font-size: 3em;
   padding: 0.5em;
+  color: white;
 }
 
 .categories {
   border: 3px solid grey;
   flex-grow: 1;
+  background: rgb(5, 129, 104);
 }
 
 .categories ul {
@@ -52,17 +55,20 @@ body {
 
 .categories li {
   font-size: 1.5em;
-  
+  color: white;
 }
 
 .dynamic-page {
-  border: 3px solid grey;
+  /* border: 3px solid grey; */
   flex-grow: 3;
+
 }
 
 .deals {
-  border: 3px solid grey;
+  /* border: 3px solid grey; */
   flex-grow: 1;
+  background: rgb(5, 129, 104);
+  
 }
 
 .deals ul {
@@ -77,6 +83,7 @@ body {
 
 .deals li {
   font-size: 1.5em;
+  color: white;
   
 }
 
@@ -93,17 +100,33 @@ body {
   padding: 0 2.5em;
 }
 
+.category-ul a {
+  text-decoration: none;
+}
+
+.category-ul p {
+  font-size: 1.3em;
+}
+
+.left-side-bar {
+  padding: 0 1em;
+}
+
 .left-side-bar img {
   width: 10em;
   height: 8em;
   border-radius: 1em;
+}
 
+.right-side-bar {
+  padding: 0 1em;
 }
 
 .right-side-bar img {
   width: 10em;
   height: 8em;
   border-radius: 1em;
+
 
 }
 
@@ -118,4 +141,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0 2.5em;
+}
+
+.food-detail img {
+  width: 40em;
+  height: auto;
 }

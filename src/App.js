@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import CategoriesList from "./Components/CategoriesList";
 import FoodList from './Components/FoodList';
 import Data from "./Data.json";
+import FoodDetail from "./Components/FoodDetail";
 
 class App extends Component {
   render() {
@@ -40,6 +41,7 @@ class App extends Component {
               <Switch>
                 <Route path="/" exact component={CategoriesList} />
                 <Route path="/:type" exact component={FoodList} />
+                <Route path="/:type/:index" exact component={FoodDetail} />
               </Switch>
             </section>
 
