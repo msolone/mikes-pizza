@@ -69,6 +69,42 @@
         ]
     },
 
+    "pastas": {
+        "title": "Pastas",
+        "motto": "Delicious Cheesy Pasta",
+        "meals": [
+
+            {
+                "title": "Spaghetti and Meatballs",
+                "description": "We got the biggest Meatballs in town!",
+                "price": "$9.99",
+                "imageURL": "https://bit.ly/2PFvWZG"
+            },
+            
+            {
+                "title": "Chicken Alfredo",
+                "description": "Grilled Chicken and Creamy Alfredo",
+                "price": "$9.99",
+                "imageURL": "https://bit.ly/2Mzy2MO"
+            },
+
+            {
+                "title": "Chicken Parmesan",
+                "description": "Fried Chicken and Marinara sauce",
+                "price": "$9.99",
+                "imageURL": "https://bit.ly/2Ls6dk8"
+            },
+
+            {
+                "title": "Chicken Marsala",
+                "description": "Grilled Chicken in our Mushroom Marsala",
+                "price": "$11.99",
+                "imageURL": "https://bit.ly/2BOUnRz"
+            }
+
+        ]
+    },
+
     "desserts": {
         "title": "Desserts",
         "motto": "You know you got room!",
@@ -174,4 +210,6 @@
 
         ]
     }
+
+
 }

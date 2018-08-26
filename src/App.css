@@ -50,6 +50,7 @@ body {
   justify-content: space-around;
   height: 100%;
   align-items: center;
+
   
 }
 
@@ -78,6 +79,7 @@ body {
   justify-content: space-around;
   height: 100%;
   align-items: center;
+ 
   
 }
 
@@ -88,9 +90,10 @@ body {
 }
 
 .category-images {
-  width: 20em;
-  height: 16em;
+  width: 15em;
+  height: 15em;
   border-radius: 2em;
+  padding: 1em
 }
 
 .category-ul {
@@ -98,6 +101,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0 2.5em;
+  margin-top: 1.5em;
 }
 
 .category-ul a {

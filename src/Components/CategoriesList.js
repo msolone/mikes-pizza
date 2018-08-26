@@ -30,7 +30,7 @@ class CategoriesList extends Component {
               <div key={i}>
               <Link to={`./${categoryKey}`}>
                 <h2>{food.title}</h2>
-                <p>{food.motto}</p>
+                {/* <p>{food.motto}</p> */}
                 <img src={food.meals[0].imageURL} alt={food.meals[0].title} className='category-images'/>
               </Link>  
               </div>
