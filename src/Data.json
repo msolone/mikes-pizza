@@ -70,7 +70,7 @@
     },
 
     "pastas": {
-        "title": "Pastas",
+        "title": "Pasta",
         "motto": "Delicious Cheesy Pasta",
         "meals": [
 
@@ -80,7 +80,7 @@
                 "price": "$9.99",
                 "imageURL": "https://bit.ly/2PFvWZG"
             },
-            
+
             {
                 "title": "Chicken Alfredo",
                 "description": "Grilled Chicken and Creamy Alfredo",
@@ -179,18 +179,19 @@
         "title": "Deals!",
         "motto": "Check out our specials!",
         "meals": [
-            {
-                "title": "Lunch Special",
-                "description": "Large Pizza and a Drink",
-                "price": "$14.99",
-                "imageURL": "https://bit.ly/2LxEzSU"
-            },
 
             {
                 "title": "Double Down",
                 "description": "Two Large Pizzas",
                 "price": "$20.99",
-                "imageURL": "https://bit.ly/2MAnMUg"
+                "imageURL": "https://pj.pizza/2o9qtxI"
+            },
+
+            {
+                "title": "Lunch Special",
+                "description": "2 Slices of Pizza and a Drink",
+                "price": "$7.99",
+                "imageURL": "http://amaparties.com/wp-content/uploads/2017/11/slice_special.jpg"
             },
 
             {
