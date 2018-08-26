@@ -42,7 +42,7 @@ class App extends Component {
       <Router>
         <section className="perma-page">
           <section className="header">
-            <h1>Mike's Pizza</h1>
+            <a href='http://localhost:3000'><h1>Mike's Pizza</h1></a>
            {/* current:page: {this.state.activePage}
             {this.state.currentPage.map((item, i) => {
               return <div key={i}>{item}</div>
@@ -87,44 +87,44 @@ class App extends Component {
 
             <section className="deals">
               <ul className="right-side-bar">
-                <Link to="">
+                <a href="http://localhost:3000/deals/0">
                   <li>Deal #1</li>
                   <img
                     src={
-                      Data.appetizers.meals[Math.floor(Math.random() * 4)]
+                      Data.deals.meals[0]
                         .imageURL
                     }
                     alt="food"
                   />
-                </Link>
-                <Link to="">
+                </a>
+                <a href="http://localhost:3000/deals/1">
                   <li>Deal #2</li>
                   <img
                     src={
-                      Data.entrees.meals[Math.floor(Math.random() * 4)].imageURL
+                      Data.deals.meals[1].imageURL
                     }
                     alt="food"
                   />
-                </Link>
-                <Link to="">
+                </a>
+                <a href="http://localhost:3000/deals/2">
                   <li>Deal #3</li>
                   <img
                     src={
-                      Data.desserts.meals[Math.floor(Math.random() * 4)]
+                      Data.deals.meals[2]
                         .imageURL
                     }
                     alt="food"
                   />
-                </Link>
-                <Link to="">
+                </a>
+                <a href="http://localhost:3000/deals/3">
                   <li>Deal #4</li>
                   <img
                     src={
-                      Data.drinks.meals[Math.floor(Math.random() * 4)].imageURL
+                      Data.deals.meals[3].imageURL
                     }
                     alt="food"
                   />
-                </Link>
+                </a>
               </ul>
             </section>
           </section>
